@@ -295,7 +295,8 @@ plot(names(ts_m_i_wd),
      ts_m_i_wd,
      type = 'l',
      main = "Reproducible Rese,arch Assignment 1
-     Average daily activity pattern by time of day",
+     Average daily activity pattern by time of day
+     Weekday Activity",
      xlab = "",
      ylab = "Average number of steps"
      )
@@ -303,21 +304,12 @@ plot(names(ts_m_i_wd),
 plot(names(ts_m_i_we),
      ts_m_i_we,
      type = 'l',
-     xlab = "Time of day",
+     main = "Weekend Activity",
+     xlab = "Time of day (24hr time)",
      ylab = "Average number of steps"
      )
 ```
 
 ![](PA1_template_files/figure-html/panelplot-1.png) 
-
-```r
-#library(ggplot2)
-#qplot(data = the_data,
-#     facets = wkdaywkend,
-#     main = "Reproducible Rese,arch Assignment 1
-#     Average daily activity pattern by time of day",
-#     xlab = "Time of day",
-#     ylab = "Average number of steps")
-```
 
 [1]: https://github.com/whanrott/RepData_PeerAssessment1 
